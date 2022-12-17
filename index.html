@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <html lang="es">
     <head>
@@ -6,48 +7,49 @@
         <meta name="author" content="Hugo Pulido Pensado" />
         <meta name="description" content="Calculadora Basica" />
         <meta name ="keywords" content ="Calculadora, milan, Calculadora milan, calculadora basica" />
-        <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
-        <script src="CalculadoraMilan.js"></script>
+        <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" type="text/css" href="CalculadoraMilan.css" />
     </head>
     <body>
-        <h1>Calculadora Basica</h1>
-        <form>
 
-            
+
+            <h1>Calculadora Basica</h1>
+        <form action="#" method="post">
+
+            <!-- Poner submit-->
             <label for="pantalla">Resultado</label>
             <input type="text" name="pantalla" id="pantalla" value="" lang="es" disabled>
 
             
-            <input type="button" value="On/c" onclick="calculadora.borrar()">
-            <input type="button" value="CE" onclick="calculadora.borrar()">
-            <input type="button" value="+/-" onclick="calculadora.masMenos()">
-            <input type="button" value="√" onclick="calculadora.raiz()">
-            <input type="button" value="%" onclick="calculadora.porcentaje()">
+            <input type="submit" name="On/c" value="On/c" >
+            <input type="submit" name="CE" value="CE">
+            <input type="submit" name="+/-" value="+/-" >
+            <input type="submit" name="√" value="√" >
+            <input type="submit" name="%" value="%" >
 
-            <input type="button" value="7" onclick="calculadora.digitos(7)" >
-            <input type="button" value="8" onclick="calculadora.digitos(8)">
-            <input type="button" value="9" onclick="calculadora.digitos(9)">
-            <input type="button" value="x" onclick="calculadora.multiplicacion()">
-            <input type="button" value="/" onclick="calculadora.division()">
+            <input type="submit" name="7" value="7"  >
+            <input type="submit" name="8" value="8" >
+            <input type="submit" name="9" value="9" >
+            <input type="submit" name="x" value="x" >
+            <input type="submit" name="/" value="/" >
 
-            <input type="button" value="4" onclick="calculadora.digitos(4)">
-            <input type="button" value="5" onclick="calculadora.digitos(5)">
-            <input type="button" value="6" onclick="calculadora.digitos(6)">
-            <input type="button" value="-" onclick="calculadora.resta()">
-            <input type="button" value="MRC" onclick="calculadora.mrc()">
+            <input type="submit" name="4" value="4" >
+            <input type="submit" name="5" value="5">
+            <input type="submit" name="6" value="6" >
+            <input type="submit" name="-" value="-" >
+            <input type="submit" name="MRC" value="MRC">
 
-            <input type="button" value="1" onclick="calculadora.digitos(1)">
-            <input type="button" value="2" onclick="calculadora.digitos(2)">
-            <input type="button" value="3" onclick="calculadora.digitos(3)">
-            <input type="button" value="+" onclick="calculadora.suma()">
-            <input type="button" value="M-" onclick="calculadora.mMenos()">
+            <input type="submit" name="1" value="1">
+            <input type="submit" name="2" value="2" >
+            <input type="submit" name="3" value="3" >
+            <input type="submit" name="+" value="+">
+            <input type="submit" name="M-" value="M-" >
 
-            <input type="button" value="0" onclick="calculadora.digitos(0)">
-            <input type="button" value="." onclick="calculadora.punto()">
-            <input type="button" value="=" onclick="calculadora.igual()">
+            <input type="submit" name="0" value="0" >
+            <input type="submit" name="punto" value="." >
+            <input type="submit" name="=" value="=" >
             
-            <input type="button" value="M+" onclick="calculadora.mMas()">
+            <input type="submit" name="M+" value="M+">
             
 
         
