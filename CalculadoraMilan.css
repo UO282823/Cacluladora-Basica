@@ -31,7 +31,7 @@ input[value="+"]{
     grid-row: span 2;  
 }
 /*Especifidad (011)*/
-input[type=button]  {
+input[type=submit]  {
     border-radius: 5%;
     padding: 1em;
     margin: 1em;
